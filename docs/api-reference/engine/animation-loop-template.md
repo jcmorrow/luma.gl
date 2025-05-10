@@ -70,7 +70,7 @@ makeAnimationLoop(AnimationLoopTemplateCtor: typeof AnimationLoopTemplate, props
 ### constructor
 
 The `AnimationLoopTemplate` class should not be constructed directly. Use the `makeAnimationLoop()` function to create an
-`AnimationLoop` from an `AnimationLoop` template
+`AnimationLoop` from an `AnimationLoopTemplate`.
 
 ### onFinalize
 
@@ -79,5 +79,5 @@ Parameters are identical to `AnimationLoopProp.onFinalize`.
 
 ### onRender
 
-The application overrides the `onFinalize`` method to render each frame.
+The application overrides the `onRender` method to render each frame.
 Parameters are identical to `AnimationLoopProp.onRender`.
